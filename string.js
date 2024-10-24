@@ -30,3 +30,11 @@ console.log(newStr);
 // Trim - to remove white spaces
 const str = "   Nur Adnan   ";
 console.log(str.trim());
+
+// Searching
+console.log(string2.indexOf("N"));
+console.log(string2.lastIndexOf("A"));
+
+// Boolean
+console.log(string2.startsWith("N"));
+console.log(string2.startsWith("N"));
