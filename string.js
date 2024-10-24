@@ -41,3 +41,6 @@ console.log(string2.endsWith("n"));
 
 // Extracting Substring
 console.log(string2.substring(4, 5));
+
+// Slice
+console.log(string2.slice(4, -1));
