@@ -55,3 +55,22 @@ console.log(String(numToString));
 const objectToString = { name: "Adnan" };
 console.log(String(objectToString)); // [object Object]
 console.log(JSON.stringify(objectToString)); // {"name":"Adnan"}
+
+console.log(string2.charCodeAt(4));
+console.log(String.fromCharCode(65));
+
+// Comparison
+const stringA = "Apple";
+const stringB = "Banana";
+
+console.log(stringA.localeCompare(stringB));
+
+console.log(string2.includes("Nur"));
+
+// Split
+console.log(string2.split(" "));
+console.log(string2.split("n"));
+
+// Join
+const arr = ["apple", "banana", "orange"];
+console.log(arr.join(" and "));
