@@ -24,3 +24,9 @@ console.log(string2.replace("Nur", "Chowdhury"));
 console.log(string2.replaceAll("r", "e"));
 
 // Concat - to join a string
+const newStr = string2.concat(" Chowdhury");
+console.log(newStr);
+
+// Trim - to remove white spaces
+const str = "   Nur Adnan   ";
+console.log(str.trim());
