@@ -39,4 +39,5 @@ console.log(string2.lastIndexOf("A"));
 console.log(string2.startsWith("N"));
 console.log(string2.endsWith("n"));
 
-
+// Extracting Substring
+console.log(string2.substring(4, 5));
