@@ -37,4 +37,6 @@ console.log(string2.lastIndexOf("A"));
 
 // Boolean
 console.log(string2.startsWith("N"));
-console.log(string2.startsWith("N"));
+console.log(string2.endsWith("n"));
+
+
