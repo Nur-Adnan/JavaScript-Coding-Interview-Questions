@@ -44,3 +44,14 @@ console.log(string2.substring(4, 5));
 
 // Slice
 console.log(string2.slice(4, -1));
+
+// Converting Case
+const toBeConverted = string2.toUpperCase();
+console.log(toBeConverted);
+
+const numToString = 1;
+console.log(String(numToString));
+
+const objectToString = { name: "Adnan" };
+console.log(String(objectToString)); // [object Object]
+console.log(JSON.stringify(objectToString)); // {"name":"Adnan"}
