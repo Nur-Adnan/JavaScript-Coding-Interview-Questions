@@ -18,3 +18,9 @@ console.log(string2.charAt(1));
 for (let i = 0; i < string2.length; i++) {
   console.log(string2[i]);
 }
+
+// Modifying String - String in Js are immutable
+console.log(string2.replace("Nur", "Chowdhury"));
+console.log(string2.replaceAll("r", "e"));
+
+// Concat - to join a string
